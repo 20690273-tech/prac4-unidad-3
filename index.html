@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#0bedf1;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+.contenedor{
+background: pink;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+<script>
+  
+  function load(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onreadystatechange =function(){
+      if (this.readyState==4 && this.status==200) {
+
+
+        document.getElementById("demo").innerHTML=this.responseText;
+      }
+
+
+    };
+xhttp.open("GET","ejem.txt",true);
+xhttp.send();
+}
+
+function load2(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onreadystatechange =function(){
+      if (this.readyState==4 && this.status==200) {
+        document.getElementById("demo").innerHTML=this.responseText;
+      }
+    };
+
+xhttp.open("GET","ejem2.txt",true);
+xhttp.send();
+}
+</script>
+</head>
+
+<body style="font-family:Verdana;color:#d73edc;">
+<div class="contenedor">
+  <div  class="header" style="background-color:#e5e5e5;padding:15px;text-align:center;">
+    <img src="logo.webp" style="max-width: 90%;height: auto;">
+  </div>
+  <div style="overflow:auto">
+    <div class="menu">
+      <a href="index.html"><input type="button" value="inicio"></a>
+      <a><input type="button" onclick="load()" value="descripcion"></a>
+      <a><input type="button" onclick="load2()" value="Motor"></a>
+      
+    </div>
+    <div class="main">
+      <h2>camaro 69 ss</h2>
+      <p id="demo">El 1969 Camaro SS es un automóvil deportivo <br><br>
+      <img src="rojo.jpg" style="max-width: 60%;height: auto;"></p>
+    </div>
+    <div class="right">
+      <h2>Anuncios</h2>
+      <p id="demo2"> </p>
+    </div>
+  </div>
+  <footer style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">Copyright</footer>
+</div>
+</body>
+
+
+</html>

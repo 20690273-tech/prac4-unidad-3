@@ -1,0 +1,6 @@
+﻿<p style="color:blue;">El 1969 Camaro SS es un automóvil deportivo del fabricante de automóviles estadounidense General Motors.
+ GM debutó el Camaro en 1966 a través de su división de Chevrolet para competir con el nuevo modelo de Ford, el Mustang, y otros coches deportivos americanos.
+  El Camaro 1969 es parte de la primera generación de la producción del coche y representa el modelo del año pasado ante un importante rediseño para 1970.
+ La designación SS se refiere a un "Super Sport" paquete de prestaciones que establece el Camaro SS, aparte de otras versiones. 
+Motor<br></p> 
+<img src="Camaro.webp" style="max-width: 90%;height: auto;">

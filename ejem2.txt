@@ -1,0 +1,4 @@
+El 1969 Chevy Camaro SS utiliza el motor de GM L48. Se trata de un V8 de 90 grados, motor de gasolina de aspiración natural con un desplazamiento total de 350 centímetros cúbicos o 5,7 litros. 
+El motor tiene un diámetro por carrera de 4 pulgadas por 3,5 pulgadas y utiliza un bloque de hierro fundido y la cabeza. 
+También utiliza un tren de válvulas en cabeza con dos válvulas por cilindro <br>
+<img src="motor.jpg" style="max-width: 70%;height: auto;">
